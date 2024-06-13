@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh '''
                 #!/bin/bash
-                for i in {1..6}; do echo "This is file \$i" > file\$i.txt; done
+                for i in {1..7}; do echo "This is file \$i" > file\$i.txt; done
                 '''
             }
 

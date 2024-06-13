@@ -9,7 +9,7 @@ pipeline {
         }
         stage ('Run script'){
             steps {
-                sh "run.sh"
+                sh "sh run.sh"
             }
         }
         stage ('Generate artifacts'){

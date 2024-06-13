@@ -20,7 +20,7 @@ pipeline {
         }
         post {
             always{
-                archiveArtifacts artifacts: '*.txt' followSymlinks: false
+                archiveArtifacts artifacts: '*.txt', followSymlinks: false
             }
         }
     }
